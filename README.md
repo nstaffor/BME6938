@@ -11,5 +11,5 @@ The other sample data set included is TrainSubject_XY.mat and Test_XY.mat. This 
 2 = Walking
 3 = Inclined walking
 4 = Running
-5 = Cycling
+5 = Cycling.
 For example, the testing_all_filtered.mat  has standing, walking, inclined walking, running and cycling in it, so the class_testing matrix should include 1,2,3,4,5. The only other parameters a user might want to change is if they want to run the hyperparameter optimization. To do this, a user would comment out the current model and uncomment the model labeled as hyperparameter estimation. 
